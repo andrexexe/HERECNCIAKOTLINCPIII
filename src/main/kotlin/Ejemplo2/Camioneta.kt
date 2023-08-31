@@ -1,10 +1,12 @@
+package Ejemplo2
+
 class Camioneta(
     marca:String,
     modelo:String,
 
     var capacidadCarga:Double
 
-) :Vehiculo(marca, modelo){
+) : Vehiculo(marca, modelo){
 
 
     //Metodo Mostrar

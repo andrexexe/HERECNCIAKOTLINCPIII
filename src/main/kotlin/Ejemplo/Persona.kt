@@ -1,4 +1,4 @@
-package Ejemplo1
+package Ejemplo
 
 open class Persona(var nombre:String, var apellido:String, var edad:Int){
 

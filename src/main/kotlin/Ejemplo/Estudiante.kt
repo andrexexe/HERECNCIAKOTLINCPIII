@@ -1,4 +1,4 @@
-package Ejemplo1
+package Ejemplo
 
 class  estudiante (nombre:String, apellido:String, edad:Int, var curso:String, var calificacion:Double)
     : Persona( nombre, apellido,  edad){

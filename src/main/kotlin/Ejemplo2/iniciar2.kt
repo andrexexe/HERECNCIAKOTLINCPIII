@@ -1,3 +1,5 @@
+package Ejemplo2
+
 fun main(){
 
 
@@ -12,8 +14,8 @@ fun main(){
     //Solucion 01
     //  Herencia Ejemplo2.Vehiculo Clase Padre hereda a Ejemplo2.Auto y Ejemplo2.Camioneta hacemos uso de el Super
 
-    val sail = Ejemplo2.Auto("Sail","2015",4)
-    val camioneta1=Ejemplo2.Camioneta("Renault ","2020",5.5)
+    val sail = Auto("Sail","2015",4)
+    val camioneta1= Camioneta("Renault ","2020",5.5)
     println("Ejemplo2.Auto")
     sail.mostrardetalles()
     println("Ejemplo2.Camioneta")
